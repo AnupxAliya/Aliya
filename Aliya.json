@@ -2,11 +2,10 @@
   "HasProblem": true,
   "ForceUpdate": true,
   "Problem": "Fix ListenMqtt(AutoRestartMqtt) & Add Stable Version Feature",
-  "Version": "1.4.3",
+  "Version": "10.0.1",
   "Stable_Version": {
     "Valid_Version": [
-      "1.4.1",
-      "1.4.3"
+      "10.0.1"
     ],
     "RealTime_AutoUpdate": false
   }
