@@ -1,0 +1,92 @@
+{
+  "name": "fca-anup-candy",
+  "version": "10.0.1",
+  "description": "Facebook-chat-api protect and deploy by Anup & Dark Rulex Team",
+  "main": "Index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Anup Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnupxAliya/Aliya/issues"
+  },
+  "homepage": "https://github.com/AnupxAliya/Aliya#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AnupxAliya/Aliya.git"
+  },
+  "dependencies": {
+    "aes-js": "latest",
+    "assert": "latest",
+    "bluebird": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "crypto-js": "latest",
+    "deasync": "^0.1.28",
+    "encode32": "latest",
+    "express": "latest",
+    "file-url": "^3.0.0",
+    "got": "^11.8.6",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "moment": "^2.29.4",
+    "mqtt": "latest",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "pretty-ms": "7.0.1",
+    "readline": "latest",
+    "request": "latest",
+    "semver": "^7.4.0",
+    "totp-generator": "latest",
+    "tough-cookie": "^4.1.2",
+    "uuid": "latest",
+    "vm": "^0.1.0",
+    "lodash": "latest",
+    "better-sqlite3": "7.6.2",
+    "websocket-stream": "latest"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "Fca anup",
+    "fca-anup-candy",
+    "anup fca",
+    "anup"
+  ]
+}
